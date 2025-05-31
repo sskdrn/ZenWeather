@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Chennai",
+        "local_names": {
+            "ur": "چنئی",
+            "ta": "சென்னை",
+            "cs": "Čennaí",
+            "te": "చెన్నై",
+            "de": "Chennai",
+            "tr": "Madras",
+            "bn": "চেন্নাই",
+            "fr": "Chennai",
+            "ru": "Ченнаи",
+            "he": "צ'נאי",
+            "lt": "Čenajus",
+            "mr": "चेन्नई",
+            "ar": "تشيناي",
+            "kn": "ಚೆನ್ನೈ",
+            "zh": "金奈",
+            "ko": "첸나이",
+            "pl": "Ćennaj",
+            "hi": "चेन्नई",
+            "en": "Chennai",
+            "ml": "ചെന്നൈ",
+            "ja": "チェンナイ",
+            "uk": "Ченнаї"
+        },
+        "lat": 13.0836939,
+        "lon": 80.270186,
+        "country": "IN",
+        "state": "Tamil Nadu"
+    }
+]

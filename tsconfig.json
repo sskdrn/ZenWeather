@@ -1,0 +1,23 @@
+{
+    "extends": "@react-native/typescript-config/tsconfig.json",
+    "include": ["./**/*"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "types": ["google.maps"],
+        "paths": {
+            "@svg/*": ["./assets/svg/*"],
+            "@components/*": ["./src/ui/components/*"],
+            "@models/*": ["./src/models/*"],
+            "@pages/*": ["./src/ui/pages/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@api/*": ["./src/services/api/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@config/*": ["./src/config/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@mocks/*": ["./src/mocks/*"],
+            "@store/*": ["./src/store/*"],
+            "@navigation/*": ["./src/ui/navigation/*"]
+        }
+    }
+}

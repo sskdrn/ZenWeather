@@ -1,0 +1,20 @@
+{
+    "cloud_pct": 75,
+    "temp": 29,
+    "feels_like": 34,
+    "humidity": 80,
+    "min_temp": 28,
+    "max_temp": 29,
+    "wind_speed": 5.66,
+    "wind_degrees": 240,
+    "sunrise": 1721089217,
+    "sunset": 1721135357,
+    "weather": [
+        {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10d"
+        }
+    ]
+}
