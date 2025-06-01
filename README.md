@@ -1,81 +1,90 @@
-ZenWeather
-=======
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+<img src="https://github.com/user-attachments/assets/57630bd9-f25b-430a-8225-dca617d59458" alt="Logo" width="698" height="139">
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+ZenWeather is a minimalist weather app built with React Native, designed to deliver exactly what you need — the weather — with no distractions. Whether you're checking the current conditions, planning for the next few hours, or switching between Celsius and Fahrenheit, ZenWeather keeps it clean and simple.
 
-## Step 1: Start the Metro Server
+
+Runs on both **Android** and **iOS**.
+
+<img src="https://github.com/user-attachments/assets/1108add5-5528-4285-b773-3b7620c6b8bc" width="300">
+<img src="https://github.com/user-attachments/assets/5225de2f-7733-47db-848a-125ba724824a" width="300">
+<img src="https://github.com/user-attachments/assets/9f23557c-52b4-4690-8af5-d8f31656fd57" width="300">
+<img src="https://github.com/user-attachments/assets/9d383c40-44db-4468-bdb2-7fc7e7a26c9a" width="300">
+<img src="https://github.com/user-attachments/assets/1a3033b2-3d13-4e61-8e98-aecf2c079f84" width="300">
+<img src="https://github.com/user-attachments/assets/20e6d3d7-e067-425c-9255-40ad5b8384de" width="300">
+
+
+# Features
+
+- 📍 **Location Detection & Search**  
+  Automatically detects your location or allows manual searches.
+
+- 🌤️ **Basic Weather Info**  
+  View real-time temperature, condition, and location in a clean, uncluttered interface, the color scheme of the app will change according to current weather!
+
+- 🕒 **10-Hour Forecast**  
+  Get a quick view of how the weather will change in the next 10 hours.
+
+- 🌡️ **Unit Toggle**  
+  Seamlessly switch between Fahrenheit and Celsius.
+
+
+## Tech, Tools and Assets
+
+- [**React Native**](https://reactnative.dev) – Cross-platform mobile development  
+- [**Google APIs**](https://mapsplatform.google.com/maps-products/) – Weather and location services  
+- [**Figma**](https://www.figma.com) – Interface and experience design  
+- [**Google Fonts**](https://fonts.google.com/) – Typography and minimal iconography
+
+
+# Running the App
+
+## Step 1: Make sure React Native Environment is ready
+
+Follow the instructions on the following link to setup react native environment:
+https://reactnative.dev/docs/environment-setup
+
+## Step 2: Clone the repo and install the necessary dependencies
+
+Run the following commands to clone to your location machine:
+
+```bash
+git clone https://github.com/sskdrn/zenweather.git
+cd zenweather
+```
+
+Install the `npm` dependencies:
+
+```bash
+npm install
+```
+
+## Step 3: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
 To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
-# using npm
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Start your Application
+## Step 4: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
 ### For Android
 
 ```bash
-# using npm
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
 ### For iOS
 
 ```bash
-# using npm
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ or devices shortly provided you have set up your emulator/simulator/devices correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
