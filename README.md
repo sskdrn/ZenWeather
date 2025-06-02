@@ -49,8 +49,8 @@ https://reactnative.dev/docs/environment-setup
 Run the following commands to clone to your location machine:
 
 ```bash
-git clone https://github.com/sskdrn/zenweather.git
-cd zenweather
+git clone https://github.com/sskdrn/ZenWeather.git
+cd ZenWeather
 ```
 
 Install the `npm` dependencies:
